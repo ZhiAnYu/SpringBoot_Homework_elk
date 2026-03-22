@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  auth-app:
+
+    build: .
+
+
+    container_name: netology-auth-server
+
+
+    ports:
+      - "8080:8080"
+
+    # Перезапуск контейнера при ошибке
+    restart: unless-stopped
