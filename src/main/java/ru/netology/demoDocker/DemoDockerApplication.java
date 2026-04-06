@@ -25,7 +25,7 @@ public class DemoDockerApplication {
     @GetMapping("/")
     public String hello() {
         log.info("Получен GET запрос на / | instance: {}", num);
-        return "Hello from instance " + num + "Ver.2";
+        return "Hello from instance " + num + "Ver.3";
     }
 
 }
