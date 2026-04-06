@@ -1,0 +1,17 @@
+config.strict.perms: false
+
+filebeat.inputs:
+  - type: filestream
+    id: springboot-logs
+    enabled: true
+    paths:
+      - /logs/app.log
+    fields:
+      log_type: application
+      app_name: demoDocker
+    fields_under_root: true
+    # Автоматически определять новые строки в файле
+    scan_frequency: 10s
+
+output.logstash:
+  hosts: ["logstash:5044"]
