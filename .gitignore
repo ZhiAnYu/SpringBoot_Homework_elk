@@ -32,3 +32,26 @@ build/
 
 ### VS Code ###
 .vscode/
+# Java/Maven
+
+*.class
+*.jar
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Локальные логи (Filebeat читает их напрямую, в Git не нужны)
+logs/
+*.log
+
+# Данные ELK (тяжёлая папка, храним ТОЛЬКО архив)
+elasticsearch-backup/
+
+# OS
+.DS_Store
+Thumbs.db
