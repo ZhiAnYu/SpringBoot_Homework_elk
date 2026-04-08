@@ -244,3 +244,85 @@ Caused by: java.lang.NumberFormatException: For input string: "${inst.num:3"
 2026-04-06 21:58:53 INFO  r.n.demoDocker.DemoDockerApplication - Получен GET запрос на / | instance: 3
 2026-04-06 21:59:00 INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
 2026-04-06 21:59:00 INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-06 22:51:45 INFO  r.n.demoDocker.DemoDockerApplication - Starting DemoDockerApplication using Java 17.0.18 with PID 11101 (/home/zhianyu/projects/demoDocker/target/classes started by zhianyu in /home/zhianyu/projects/demoDocker)
+2026-04-06 22:51:45 INFO  r.n.demoDocker.DemoDockerApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-06 22:51:47 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-06 22:51:47 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-06 22:51:47 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-06 22:51:47 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-04-06 22:51:48 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 2084 ms
+2026-04-06 22:51:48 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-06 22:51:49 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-06 22:51:49 INFO  r.n.demoDocker.DemoDockerApplication - Started DemoDockerApplication in 8.113 seconds (process running for 12.951)
+2026-04-06 22:51:57 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-06 22:51:57 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-06 22:51:57 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-04-06 22:51:58 INFO  r.n.demoDocker.DemoDockerApplication - Получен GET запрос на / | instance: 3
+2026-04-06 22:52:04 INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-06 22:52:04 INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-06 22:53:45 INFO  r.n.demoDocker.DemoDockerApplication - Starting DemoDockerApplication using Java 17.0.18 with PID 13468 (/home/zhianyu/projects/demoDocker/target/classes started by zhianyu in /home/zhianyu/projects/demoDocker)
+2026-04-06 22:53:45 INFO  r.n.demoDocker.DemoDockerApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-06 22:53:53 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-06 22:53:53 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-06 22:53:53 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-06 22:53:53 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-04-06 22:53:53 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 7120 ms
+2026-04-06 22:53:55 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-06 22:53:55 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-06 22:53:55 INFO  r.n.demoDocker.DemoDockerApplication - Started DemoDockerApplication in 13.573 seconds (process running for 17.03)
+2026-04-06 22:54:00 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-06 22:54:00 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-06 22:54:01 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2026-04-06 22:54:01 INFO  r.n.demoDocker.DemoDockerApplication - Получен GET запрос на / | instance: 3
+2026-04-06 22:54:53 INFO  r.n.demoDocker.DemoDockerApplication - Получен GET запрос на / | instance: 3
+2026-04-06 22:56:50 INFO  r.n.demoDocker.DemoDockerApplication - Получен GET запрос на / | instance: 3
+2026-04-06 22:58:31 INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-06 22:58:31 INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-07 20:09:56 INFO  r.n.demoDocker.DemoDockerApplication - Starting DemoDockerApplication using Java 17.0.18 with PID 11624 (/home/zhianyu/projects/demoDocker/target/classes started by zhianyu in /home/zhianyu/projects/demoDocker)
+2026-04-07 20:09:57 INFO  r.n.demoDocker.DemoDockerApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 20:10:20 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 20:10:20 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-07 20:10:20 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 20:10:20 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-04-07 20:10:22 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 23906 ms
+2026-04-07 20:10:29 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-07 20:10:30 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-07 20:10:30 INFO  r.n.demoDocker.DemoDockerApplication - Started DemoDockerApplication in 48.628 seconds (process running for 74.786)
+2026-04-07 20:11:21 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-07 20:11:21 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-07 20:11:21 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-04-07 20:11:22 INFO  r.n.demoDocker.DemoDockerApplication - Получен GET запрос на / | instance: 3
+2026-04-07 20:27:32 INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-07 20:27:34 INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-07 20:29:58 INFO  r.n.demoDocker.DemoDockerApplication - Starting DemoDockerApplication using Java 17.0.18 with PID 14163 (/home/zhianyu/projects/demoDocker/target/classes started by zhianyu in /home/zhianyu/projects/demoDocker)
+2026-04-07 20:29:58 INFO  r.n.demoDocker.DemoDockerApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 20:30:11 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 20:30:11 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-07 20:30:11 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 20:30:11 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-04-07 20:30:13 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 13996 ms
+2026-04-07 20:30:19 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-07 20:30:20 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-07 20:30:20 INFO  r.n.demoDocker.DemoDockerApplication - Started DemoDockerApplication in 34.198 seconds (process running for 60.028)
+2026-04-07 20:32:08 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-07 20:32:08 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-07 20:32:08 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-04-07 20:32:10 INFO  r.n.demoDocker.DemoDockerApplication - Получен GET запрос на / | instance: 3
+2026-04-07 21:26:26 INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-07 21:26:37 INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-04-07 22:37:29 INFO  r.n.demoDocker.DemoDockerApplication - Starting DemoDockerApplication using Java 17.0.18 with PID 11153 (/home/zhianyu/projects/demoDocker/target/classes started by zhianyu in /home/zhianyu/projects/demoDocker)
+2026-04-07 22:37:30 INFO  r.n.demoDocker.DemoDockerApplication - No active profile set, falling back to 1 default profile: "default"
+2026-04-07 22:37:51 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-04-07 22:37:51 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-07 22:37:51 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-04-07 22:37:51 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.18]
+2026-04-07 22:37:52 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 19412 ms
+2026-04-07 22:37:54 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-04-07 22:37:54 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-04-07 22:37:54 INFO  r.n.demoDocker.DemoDockerApplication - Started DemoDockerApplication in 37.288 seconds (process running for 52.157)
+2026-04-07 22:38:45 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-07 22:38:45 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-04-07 22:38:45 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2026-04-07 22:38:46 INFO  r.n.demoDocker.DemoDockerApplication - Получен GET запрос на / | instance: 3
+2026-04-07 22:56:36 INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-04-07 22:56:39 INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
